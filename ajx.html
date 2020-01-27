@@ -1,0 +1,18 @@
+<html>
+<body>
+	<p id="demo"></p>
+	<script type="text/javascript">
+	var x=new XMLHttpRequest();
+	x.onreadystatechange=function()
+	{
+		if(this.readyState==4 && this.status==200)
+		{
+			var a1=JSON.parse(this.responseText);
+			document.getElementById("demo").innerHTML=a1.Name;
+		}
+	};
+	x.open("GET","demo.txt",true);
+	x.send();
+</script>
+</body>
+</html>

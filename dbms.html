@@ -1,0 +1,24 @@
+<html>
+<head>
+
+</head>
+<body>
+<h1>Welcome</h1>
+<p id="demo"></p>
+<script type="text/javascript">
+var obj1='{"Name":"Devu","Value":"Mca","Salary":50000}';
+var arr=["Devu","Thakkar","MCA"];
+//document.write("Name :"+obj1.Name+"<br>");
+//document.write("Value : "+obj1.Value);
+var obj2=JSON.parse(obj1);
+var arr2=JSON.stringify(arr);
+//document.getElementById("demo").innerHTML=obj2.Name+"  "+obj2.Salary+"  "+obj2.Value;
+for(i in obj2)
+{
+	document.getElementById("demo").innerHTML+="<br>"+i+" : "+obj2[i]+" ";
+}
+
+document.getElementById("demo").innerHTML+="<br>"+"Array : "+arr2;
+</script>
+</body>
+</html>

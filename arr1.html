@@ -1,0 +1,21 @@
+<html>
+<body>
+	<p id="demo"></p>
+	<script type="text/javascript">
+	var x=new XMLHttpRequest();
+	x.onreadystatechange=function()
+	{
+		if(this.readyState==4 && this.status==200)
+		{
+			var a1=JSON.parse(this.responseText);
+			for(i in a1)
+			{
+				document.getElementById("demo").innerHTML+="<br>"+a1[i]+" ";
+			}
+		}
+	};
+	x.open("GET","arr.txt",true);
+	x.send();
+</script>
+</body>
+</html>
