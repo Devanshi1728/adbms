@@ -1,0 +1,12 @@
+dbBooks.insert(
+{"Id":110,"Title":"History","Author":"Devuji",publisher":"DD","Pub_year":1998,"Keyword":"Advanced"}
+{"Id":111,"Title":"History","Author":"Devuji",publisher":"DD","Pub_year":2019,"Keyword":"Advance"}
+{"Id":112,"Title":"History","Author":"Devuji",publisher":"DD","Pub_year":2019,"Keyword":"Advanced"}
+{"Id":113,"Title":"History","Author":"Devuji",publisher":"DD","Pub_year":1998,"Keyword":"Advance"}
+{"Id":114,"Title":"History","Author":"Devuji",publisher":"DD","Pub_year":2020,"Keyword":"Latest"}
+{"Id":115,"Title":"History","Author":"Devuji",publisher":"DD","Pub_year":1998,"Keyword":"Advance"}
+{"Id":116,"Title":"History","Author":"Devuji",publisher":"DD","Pub_year":2000,"Keyword":"Latest"}
+{"Id":117,"Title":"History","Author":"Devuji",publisher":"DD","Pub_year":2015,"Keyword":"Advance"}
+{"Id":118,"Title":"History","Author":"Devuji",publisher":"DD","Pub_year":1998,"Keyword":"Advanced"}
+{"Id":119,"Title":"History","Author":"Devuji",publisher":"DD","Pub_year":1998,"Keyword":"Latest"}
+)
